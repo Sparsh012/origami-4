@@ -1,0 +1,84 @@
+.header
+{
+    background-color:rgb(1,4,9);
+    display:flex;
+    justify-content: space-between;
+}
+
+.menu
+{
+    display:flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight:400;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:rgb(255, 255, 255);
+}
+
+h1
+{
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+
+a
+{
+    color:rgb(255, 255, 255);
+    font-weight: normal;
+}
+
+.bodyimg
+{
+    color:black;
+    font-family:serif;
+    font-display:swap;
+}
+
+.textInImage
+{
+    position:absolute;
+    top:25%;
+}
+
+body{
+    margin: 0px;
+    background-color:#5f5f5f;
+}
+
+.grid
+{    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    border:2px solid #000000;
+    border-radius:50px
+}
+
+.origami
+{ 
+
+    border-radius:20px;
+    background-color:#ffffff;
+    padding:7.5px;
+    margin:25px;
+    width:310px;
+    font-family:cursive;
+}
+.origami:hover{
+
+    transform: scale(1.2);
+}
